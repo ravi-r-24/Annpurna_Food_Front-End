@@ -1,0 +1,32 @@
+{
+  "name": "annpurna_food_front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravi-r-24/Annpurna_Food_Front-End.git"
+  },
+  "author": "Ravi Raushan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravi-r-24/Annpurna_Food_Front-End/issues"
+  },
+  "homepage": "https://github.com/ravi-r-24/Annpurna_Food_Front-End#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.40",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

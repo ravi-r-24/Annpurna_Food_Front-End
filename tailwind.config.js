@@ -4,12 +4,18 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        "small-mobile": "480px",
+        "portrait-mobile": "480px",
         mobile: "640px",
-        "small-tablet": "768px",
+        "portrait-tablet": "768px",
         tablet: "1024px",
-        laptop: "1369px",
+        laptop: "1366px",
         desktop: "1920px",
+      },
+      boxShadow: {
+        slate: "-2px 2px 5px 2px rgb(226 232 240)",
+      },
+      fontFamily: {
+        "nunito-sans": ["Nunito Sans", "sans-serif"],
       },
     },
   },
